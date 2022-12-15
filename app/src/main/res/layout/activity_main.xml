@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip">
+
+        <TextView
+            android:id="@+id/totalGold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dip"
+            android:text="Total Gold Value: RM"
+            android:textAlignment="textStart"
+            android:textColor="#454545"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/zakatPay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:text="Zakat Payable    : RM"
+            android:textAlignment="textStart"
+            android:textColor="#454545"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/totalZakat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dip"
+            android:layout_marginBottom="16dip"
+            android:text="Total Zakat         : RM"
+            android:textAlignment="textStart"
+            android:textColor="#454545"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/amount"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="50dp"
+            android:background="#FFFFFF"
+            android:hint="Weight of Gold (g)"
+            android:inputType="numberDecimal"
+            android:textColor="#000000"
+            android:textColorHint="#6495ED"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/cgold"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="10dp"
+            android:background="#FFFFFF"
+            android:hint="Current Gold value/gram"
+            android:inputType="numberDecimal"
+            android:textColor="#000000"
+            android:textColorHint="#6495ED"
+            android:textSize="30sp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="41dp"
+            android:layout_marginTop="16dip"
+            android:animateLayoutChanges="true"
+            android:background="#CDFDF5F5"
+            android:dropDownWidth="match_parent"
+            android:spinnerMode="dropdown"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/btncal"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#FF5722"
+            android:text="Calculate"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:id="@+id/btnreset"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="2dip"
+            android:background="@color/black"
+            android:text="Reset"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+</RelativeLayout>

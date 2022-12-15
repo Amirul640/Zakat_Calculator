@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Zakat Calculator</string>
+    <string-array name="status">
+        <item>Keep</item>
+        <item>Wear</item>
+    </string-array>
+    <string name="copyright">Copyright &#169; 2022 Amirul</string>
+    <string name="name">NAME: MOHAMAD AMIRUL IKRAM BIN NORDIN</string>
+    <string name="gp">GROUP: RSC2405A</string>
+    <string name="id">STUDENT NUMBER: 2020853042</string>
+    <string name="code">PROGRAMME CODE: CS240</string>
+    <string name="link"><a href="https://github.com/Amirul640/Zakat_Calculator.git">Source Code Link</a></string>
+</resources>
